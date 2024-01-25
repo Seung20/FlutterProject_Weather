@@ -4,7 +4,8 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:timer_builder/timer_builder.dart';
 import 'package:intl/intl.dart';
-import 'package:datecouresmap/model/model.dart';
+import 'package:weather/model/model.dart';
+import 'package:weather/screens/secondscreen.dart';
 
 //https://github.com/icodingchef/lecture
 
@@ -75,7 +76,13 @@ class _WeatherScreenState extends State<WeatherScreen> {
           iconSize: 30.0,
         ),
         actions: [
-          IconButton(onPressed: (){},
+          IconButton(onPressed: (){
+            Navigator.push(context, MaterialPageRoute(
+              builder: (context) {
+                return secondscreen();
+              },
+            ));
+          },
               icon: Icon(Icons.location_searching), iconSize: 30.0,)
         ],
       ),

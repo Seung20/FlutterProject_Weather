@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:datecouresmap/data/my_location.dart';
-import 'package:datecouresmap/data/network.dart';
-import 'package:datecouresmap/screens/weather_screen.dart';
+import 'package:weather/data/my_location.dart';
+import 'package:weather/data/network.dart';
+import 'package:weather/screens/weather_screen.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 const apikey = '8e2b85dee1832f3d88dc87b66482d671';
 

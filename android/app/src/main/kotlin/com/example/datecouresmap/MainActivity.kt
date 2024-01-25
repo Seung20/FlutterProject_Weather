@@ -1,4 +1,4 @@
-package com.example.datecouresmap
+package com.example.weather
 
 import io.flutter.embedding.android.FlutterActivity
 
