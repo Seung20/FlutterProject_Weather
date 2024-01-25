@@ -1,6 +1,8 @@
-# datecouresmap
+# 날씨 정보 앱
 
-A new Flutter project.
+Flutter로 사용자의 위치에 해당하는 날씨를 제공하는 앱.
+
+자세한 내용은 https://www.notion.so/1-Flutter-Project-Weather-a4269676c8894f139ff37f37d34994df?pvs=4 참조.
 
 ## Getting Started
 
